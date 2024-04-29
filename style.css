@@ -2,6 +2,11 @@ body {
   background-image: url("https://images.pexels.com/photos/247671/pexels-photo-247671.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
 
+h1{
+  position: center;
+  font-family: Arial;
+}
+
 a:link {
   color: green;
   background-color: transparent;
