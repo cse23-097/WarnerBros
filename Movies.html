@@ -1,23 +1,85 @@
-<!doctype>
-  <html>
-    <head>
-      <title>Movies</title>
-    </head>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <body>
-      
-  <link href = "style.css" rel = "stylesheet"/>
-      
-      <ul>
-  <li><a href="index.html">Home</a></li>
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Movies</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+       <li><a href="index.html">Home</a></li>
   <li><a href="Games & Apps.html">Games & Apps</a></li>
   <li><a href="Movies.html">Movies</a></li>
   <li><a href="TV Shows.html">TV Shows</a></li>
   <li><a href="Collections.html">Collections</a></li>
   <li><a href="Feedback.html">Feedback</a></li>
-</ul> 
-       <div class="item">
-         <div class="quality">CAM</div> <div class="poster"> <a href="/movie/challengers-71xzj" data-tip="72769?/cache3da63" class="tooltipstered"> <img class=" lazyloaded" data-src="https://static.fmoviesz.to/i/2/26/edb61d19c7e73a31014d5d342cfd4776@280.jpg" alt="Challengers" src="https://static.fmoviesz.to/i/2/26/edb61d19c7e73a31014d5d342cfd4776@280.jpg"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>131 min</span> </div> <a href="/movie/challengers-71xzj">Challengers</a> </div> </div> 
+    </ul>
+  </div>
+
+  <div class="col-9">
+     <div class="quality">CAM</div> <div class="poster"> <a href="/movie/challengers-71xzj" data-tip="72769?/cache3da63" class="tooltipstered"> <img class=" lazyloaded" data-src="https://static.fmoviesz.to/i/2/26/edb61d19c7e73a31014d5d342cfd4776@280.jpg" alt="Challengers" src="https://static.fmoviesz.to/i/2/26/edb61d19c7e73a31014d5d342cfd4776@280.jpg"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>131 min</span> </div> <a href="/movie/challengers-71xzj">Challengers</a> </div> </div> 
       <div class="item"> <div class="quality">HD</div> <div class="poster"> <a href="/movie/monkey-man-jww83" data-tip="72296?/cache66839" class="tooltipstered"> <img class=" lazyloaded" data-src="https://static.fmoviesz.to/i/d/d4/0e1a1274a5e9431a1fd326b1f1b14636@280.jpg" alt="Monkey Man" src="https://static.fmoviesz.to/i/d/d4/0e1a1274a5e9431a1fd326b1f1b14636@280.jpg"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>121 min</span> </div> <a href="/movie/monkey-man-jww83">Monkey Man</a> </div> </div> 
       <div class="item"> <div class="quality">HD</div> <div class="poster"> <a href="/movie/dune-part-two-91jy0" data-tip="71571?/cachec7144" class="tooltipstered"> <img class=" lazyloading" data-src="https://static.fmoviesz.to/i/a/af/af4e45a2889e30c5d82d76eacd2662b9@280.jpg" alt="Dune: Part Two" src="https://static.fmoviesz.to/i/a/af/af4e45a2889e30c5d82d76eacd2662b9@280.jpg"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>166 min</span> </div> <a href="/movie/dune-part-two-91jy0">Dune: Part Two</a> </div> </div> 
       <div class="item"> <div class="quality">HD</div> <div class="poster"> <a href="/movie/rebel-moon-part-two-the-scargiver-2wx95" data-tip="72640?/cacheaebf6" class="tooltipstered"> <img class=" lazyloaded" data-src="https://static.fmoviesz.to/i/2/29/1c42e7338c956d80a92813a70c752524@280.jpg" alt="Rebel Moon - Part Two: The Scargiver" src="https://static.fmoviesz.to/i/2/29/1c42e7338c956d80a92813a70c752524@280.jpg"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>122 min</span> </div> <a href="/movie/rebel-moon-part-two-the-scargiver-2wx95">Rebel Moon - Part Two: The Scargiver</a> </div> </div> 
@@ -37,7 +99,8 @@
       <div class="item"> <div class="quality">HD</div> <div class="poster"> <a href="/movie/asphalt-city-v7752" data-tip="72057?/cachea9072" class="tooltipstered"> <img class=" lazyloaded" data-src="https://static.fmoviesz.to/i/4/4a/f4344ef8a79450ab3571be4c8a3b4274@280.jpg" alt="Asphalt City" src="https://static.fmoviesz.to/i/4/4a/f4344ef8a79450ab3571be4c8a3b4274@280.jpg"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>125 min</span> </div> <a href="/movie/asphalt-city-v7752">Asphalt City</a> </div> </div> 
       <div class="item"> <div class="quality">HD</div> <div class="poster"> <a href="/movie/sleeping-dogs2-l1xvz" data-tip="71998?/cachefd205" class="tooltipstered"> <img class=" lazyloaded" data-src="https://static.fmoviesz.to/i/7/78/f15ae3d02d6e5d5be0e9dfbd158ac18b@280.jpg" alt="Sleeping Dogs" src="https://static.fmoviesz.to/i/7/78/f15ae3d02d6e5d5be0e9dfbd158ac18b@280.jpg"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>110 min</span> </div> <a href="/movie/sleeping-dogs2-l1xvz">Sleeping Dogs</a> </div> </div> 
       <div class="item"> <div class="quality">SD</div> <div class="poster"> <a href="/movie/ghostbusters-frozen-empire-4w13m" data-tip="71942?/cache8fcf5" class="tooltipstered"> <img class=" lazyloaded" data-src="https://static.fmoviesz.to/i/c/c4/d4b6ce35f563d3aa5b1ce2b4769b0768@280.jpg" alt="Ghostbusters: Frozen Empire" src="https://static.fmoviesz.to/i/c/c4/d4b6ce35f563d3aa5b1ce2b4769b0768@280.jpg"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>115 min</span> </div> <a href="/movie/ghostbusters-frozen-empire-4w13m">Ghostbusters: Frozen Empire</a> </div> </div> 
-      <div class="item"> <div class="quality">HD</div> <div class="poster"> <a href="/movie/blood-for-dust-jwljn" data-tip="72624?/cachea7c47" class="tooltipstered"> <img class="lazyload" data-src="https://static.fmoviesz.to/i/4/45/7ce067ce8ef808e70340b3eb797589b9@280.jpg" alt="Blood for Dust"> </a> </div><div class="meta"> <div> <span>2024</span> <span class="type">MOVIE</span> <span>98 min</span> </div> <a href="/movie/blood-for-dust-jwljn">Blood for Dust</a> </div> </div> 
+  </div>
+</div>
 
-    </body>
-  </html>
+</body>
+</html>
