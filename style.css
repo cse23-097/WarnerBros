@@ -28,15 +28,18 @@
 
 /* For mobile phones: */
 [class*=""] {
+ display: block;
   width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
+ display: block;
  width: 100%;
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
+ display: block;
  width: 100%;
 }
 
@@ -522,7 +525,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  background: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat;
+  background: url("") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -600,7 +603,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .service {
-  background: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat;
+  background: url("") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -759,7 +762,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .tv-series {
-  background: url("https://images.pexels.com/photos/532563/pexels-photo-532563.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat;
+  background: url("") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -776,7 +779,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .cta {
-  background: url("https://images.pexels.com/photos/532563/pexels-photo-532563.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat;
+  background: url("") no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -837,7 +840,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .footer-top {
-  background: url("https://images.pexels.com/photos/532563/pexels-photo-532563.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat;
+  background: url("") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: 80px 50px;
