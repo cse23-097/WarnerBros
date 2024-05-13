@@ -1197,7 +1197,7 @@ body.active { overflow: hidden; }
   .header .container { gap: 30px; }
 
   .header-actions {
-    display: block;
+    display: flex;
     margin-left: auto;
     align-items: center;
     gap: 35px;
@@ -1223,7 +1223,7 @@ body.active { overflow: hidden; }
   }
 
   .lang-wrapper {
-    display: block;
+    display: flex;
     align-items: center;
     gap: 5px;
   }
@@ -1361,7 +1361,7 @@ body.active { overflow: hidden; }
 
   .navbar-list {
     all: unset;
-    display: block;
+    display: flex;
     align-items: center;
     gap: 10px;
   }
@@ -1440,7 +1440,7 @@ body.active { overflow: hidden; }
   .cta { text-align: left; }
 
   .cta .container {
-    display: block;
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
@@ -1466,7 +1466,7 @@ body.active { overflow: hidden; }
 
   .movie-detail .container {
     position: relative;
-    display: block;
+    display: flex;
     align-items: center;
     gap: 50px;
   }
@@ -1528,7 +1528,7 @@ body.active { overflow: hidden; }
   .navbar { margin-inline: auto; }
 
   .header-actions .btn-primary {
-    display: block;
+    display: flex;
     --fs-11: 14px;
     padding: 10px 35px;
     letter-spacing: 1px;
