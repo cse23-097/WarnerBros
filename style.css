@@ -16,32 +16,7 @@
 
 :root {
 
-  * {
-  box-sizing: border-box;
-}
-
-[class*=""] {
-  float: left;
-  padding: 15px;
-}
-
-
-/* For mobile phones: */
-[class*=""] {
- display: block;
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
- display: block;
- width: 100%;
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
- display: block;
- width: 100%;
-}
+ 
 
   /**
    * colors
@@ -1222,7 +1197,7 @@ body.active { overflow: hidden; }
   .header .container { gap: 30px; }
 
   .header-actions {
-    display: flex;
+    display: block;
     margin-left: auto;
     align-items: center;
     gap: 35px;
@@ -1248,7 +1223,7 @@ body.active { overflow: hidden; }
   }
 
   .lang-wrapper {
-    display: flex;
+    display: block;
     align-items: center;
     gap: 5px;
   }
@@ -1386,7 +1361,7 @@ body.active { overflow: hidden; }
 
   .navbar-list {
     all: unset;
-    display: flex;
+    display: block;
     align-items: center;
     gap: 10px;
   }
@@ -1465,7 +1440,7 @@ body.active { overflow: hidden; }
   .cta { text-align: left; }
 
   .cta .container {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
   }
@@ -1491,7 +1466,7 @@ body.active { overflow: hidden; }
 
   .movie-detail .container {
     position: relative;
-    display: flex;
+    display: block;
     align-items: center;
     gap: 50px;
   }
