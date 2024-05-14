@@ -5,48 +5,84 @@
 /**
  * copyright 2022 @codewithsadee
  */
+.feedback-container {
 
-.horizontal-container {
+    width: 500px;
 
-    display: flex;
+    margin: 0 auto;
 
-    justify-content: space-between; /* This will align the items to the left, center, and right */
-
-}
-
-
-.box {
+    padding: 20px;
 
     border: 1px solid black;
 
+    border-radius: 5px;
+
+    background-color: #f2f2f2;
+
+}
+
+
+.feedback-container h1 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+
+.feedback-container label {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+
+.feedback-container input[type="text"],
+
+.feedback-container input[type="email"],
+
+.feedback-container textarea {
+
+    width: 100%;
+
+    padding: 5px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid black;
+
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+}
+
+
+.feedback-container input[type="submit"] {
+
+    width: 100%;
+
     padding: 10px;
 
-}
+    background-color: #4CAF50;
 
+    color: white;
 
-.div10 {
+    border: none;
 
-    align-self: flex-start; /* This will align the item to the start of the container */
+    border-radius: 5px;
 
-}
-
-
-.div11 {
-
-    align-self: center; /* This will align the item to the center of the container */
+    cursor: pointer;
 
 }
 
 
-.div12 {
+.feedback-container input[type="submit"]:hover {
 
-    align-self: center; /* This will align the item to the center of the container */
-
-}
-
-.div13 {
-
-    align-self: flex-end; /* This will align the item to the end of the container */
+    background-color: #3e8e41;
 
 }
 
