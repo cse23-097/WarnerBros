@@ -6,6 +6,49 @@
  * copyright 2022 @codewithsadee
  */
 
+.horizontal-container {
+
+    display: flex;
+
+    justify-content: space-between; /* This will align the items to the left, center, and right */
+
+}
+
+
+.box {
+
+    border: 1px solid black;
+
+    padding: 10px;
+
+}
+
+
+.div10 {
+
+    align-self: flex-start; /* This will align the item to the start of the container */
+
+}
+
+
+.div11 {
+
+    align-self: center; /* This will align the item to the center of the container */
+
+}
+
+
+.div12 {
+
+    align-self: center; /* This will align the item to the center of the container */
+
+}
+
+.div13 {
+
+    align-self: flex-end; /* This will align the item to the end of the container */
+
+}
 
 
 
