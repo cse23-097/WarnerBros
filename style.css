@@ -1178,6 +1178,7 @@ body.active { overflow: hidden; }
   .container {
     max-width: 540px;
     margin-inline: auto;
+
   }
 
   /* MOVIE CARD */
@@ -1265,7 +1266,12 @@ body.active { overflow: hidden; }
    * REUSED STYLE
    */
 
-  .container { max-width: 720px; }
+  .container { 
+      max-width: 720px;
+    display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
 
 
 
