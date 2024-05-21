@@ -1,3 +1,14 @@
+/*-----------------------------------*\
+ * #style.css
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+ * #feedback
+\*-----------------------------------*/
+
+
+
+
 .feedback-container {
 
     width: 500px;
@@ -78,12 +89,10 @@
     background-color: #3e8e41;
 
 }
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
+
 
 /**
- * copyright 2022 @codewithsadee
+ * copyright 2024 @cse23-097
  */
 
 
@@ -577,7 +586,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  background: url("../images/hero-bg.jpg") no-repeat;
+  background: url("https://videos.pexels.com/video-files/7639588/7639588-hd_1080_1920_30fps.mp4") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -611,7 +620,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .upcoming {
-  background: url("../images/upcoming-bg.png") no-repeat;
+  background: url("https://videos.pexels.com/video-files/7639588/7639588-hd_1080_1920_30fps.mp4") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -655,7 +664,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .service {
-  background: url("../images/service-bg.jpg") no-repeat;
+  background: url("https://videos.pexels.com/video-files/7639588/7639588-hd_1080_1920_30fps.mp4") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -760,7 +769,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .top-rated {
-  background: url("../images/top-rated-bg.jpg") no-repeat;
+  background: url("https://videos.pexels.com/video-files/7639588/7639588-hd_1080_1920_30fps.mp4") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -814,7 +823,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .tv-series {
-  background: url("../images/tv-series-bg.jpg") no-repeat;
+  background: url("https://videos.pexels.com/video-files/7639588/7639588-hd_1080_1920_30fps.mp4") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -1675,3 +1684,8 @@ body.active { overflow: hidden; }
   }
 
 }
+
+/**
+ * copyright 2024 @cse23-097
+ */
+
