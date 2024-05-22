@@ -9,7 +9,7 @@
 .vid1 {
   background: url(https://images.pexels.com/photos/8961886/pexels-photo-8961886.jpeg?auto=compress&cs=tinysrgb&w=600) left top no-repeat, url(https://images.pexels.com/photos/8961886/pexels-photo-8961886.jpeg?auto=compress&cs=tinysrgb&w=600) right bottom no-repeat, url(https://images.pexels.com/photos/8961886/pexels-photo-8961886.jpeg?auto=compress&cs=tinysrgb&w=600) left top repeat;
   padding: 15px;
-  background-size: 50px, 130px, auto;
+  background-size: 100%;
 }
 
 /*-----------------------------------*\
